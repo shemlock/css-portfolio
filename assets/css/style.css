@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+/* WEBSITE COLORS */
+:root {
+  --navy: #40679c; 
+  --blue: #92cbcd; 
+  --light: #ededf6; 
+  --dark: #31343d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+  background-color: var(--light); 
+}
+
+/* MAIN LOGO & NAV BAR */ 
+header {
+  background: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: flex-start;
+  height: min-content;
+}
+
+h1 {
+  color: var(--dark);
+  background-color: var(--blue);
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  padding-top: 0rem;
+  margin-left: 0%;
+  margin-top: 0%;
+  font-size: 50px;
+}
+
+nav {
+  padding-top: 0%;
+  margin-top: 0.8%;
+}
+
+nav ul {
+  padding-right: 2rem;
+  list-style-type: none;
+  display: flex;
+  gap: 1.25rem;
+  color: var(--blue);
+}
+
+nav ul li a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 8px;
+  font-size: 1.5rem;
+}
