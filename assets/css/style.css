@@ -93,3 +93,30 @@ nav ul li a {
   padding: 0.5rem;
   font-size: 1.75rem; 
 }
+
+/*ABOUT SECTION */
+
+.about-section {
+  display: flex;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.about-section .heading {
+  flex: 0.3;
+  text-align: right;
+  font-size: 4rem;
+  padding-right: 15px;
+  align-items: stretch;
+  color: var(--navy);
+  margin-block-start: 0;
+}
+
+.about-section .content {
+  flex: 1;
+  padding-left: 30px;
+  margin-right: 60px;
+  align-items: center;
+  font-size: medium;
+  border-left: 4px solid var(--navy);
+}
