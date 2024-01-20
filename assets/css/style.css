@@ -10,6 +10,7 @@
   --dark: #31343d;
 }
 
+/* MAIN BODY */ 
 body {
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@ body {
 }
 
 /* MAIN LOGO & NAV BAR */ 
+
 header {
   background: var(--dark);
   display: flex;
@@ -60,4 +62,34 @@ nav ul li a {
   text-decoration-thickness: 3px;
   text-underline-offset: 8px;
   font-size: 1.5rem;
+}
+
+/* HERO SECTION */
+
+.hero-section img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 10%; 
+  right: 1%;
+  z-index: 2; 
+  background-color: var(--blue); 
+  max-width: 50%;
+  box-sizing: border-box;
+}
+
+.hero-content h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0.5rem;
+  font-size: 1.75rem; 
 }
