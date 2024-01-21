@@ -56,7 +56,8 @@ https://github.com/shemlock/css-portfolio/assets/147415364/bf5c5ec9-8f22-4288-98
 
 ![contact-me](assets/images/contact.png)
 
-The website is responsive and suitable for both mobile view and tablet view. 
+The website is responsive and suitable for both mobile view and tablet view.
+
 Here is an example of the website on an iPad air.
 
 
