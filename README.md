@@ -6,18 +6,17 @@ The link to the deployed application is availble here: https://shemlock.github.i
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The motivation for this project was to build a portfolio website, so that I could showcase my skills and talents to potential employers.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
+I wanted to create this website because having a portfolio with deployed web applications is beneficial for my career search journey, as employers can get a better idea of who I am and what I can do. 
 
   Creating this website helped me learn about: 
   * Flex Box
   * Grid
   * HTML
   * CSS
-  * Media Querys 
+  * Media Querys
+  * How to style a website to match the given wireframe. 
 
 ## Table of Contents
 
@@ -33,7 +32,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 N/A
 
 ## Usage
-
+* Scroll back up to the top of this README.md file to see a screenshot of the full webpage, you will also be able to see a link to the deployed application.
+  
+* Click on the link to open the website.
+  
 * When you open the website at the top right you will find the navigation bar with 4 links: About Me, Work, Contact Me and Resume.
   
 ![navbar](assets/images/nav.png)
